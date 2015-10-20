@@ -1,0 +1,38 @@
+posts	/Users/lyman/Desktop/microscope/client/templates/posts/posts_list.js	/^  posts: function() {$/;"	function	line:2
+waitOn	/Users/lyman/Desktop/microscope/lib/router.js	/^  waitOn: function() { return Meteor.subscribe('posts'); }$/;"	function	line:5
+data	/Users/lyman/Desktop/microscope/lib/router.js	/^  data: function() { return Posts.findOne(this.params._id); }$/;"	function	line:13
+data	/Users/lyman/Desktop/microscope/lib/router.js	/^  data: function() { return Posts.findOne(this.params._id); }$/;"	function	line:18
+requireLogin	/Users/lyman/Desktop/microscope/lib/router.js	/^var requireLogin = function() {$/;"	function	line:23
+template	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^<template name="postEdit">$/;"	function	line:1
+form	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^  <form class="main form">$/;"	function	line:2
+div	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^    <div class="form-group">$/;"	function	line:3
+label	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^      <label class="control-label" for="url">URL<\/label>$/;"	function	line:4
+div	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^      <div class="controls">$/;"	function	line:5
+input	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^        <input name="url" id="url" type="text" value="{{url}}" placeholder="Your URL" class="form-control" \/>$/;"	function	line:6
+div	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^    <div class="form-group">$/;"	function	line:9
+label	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^      <label class="control-label" for="title">Title<\/label>$/;"	function	line:10
+div	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^      <div class="controls">$/;"	function	line:11
+input	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^        <input name="title" id="title" type="text" value="{{title}}" placeholder="Name your post" class="form-control" \/>$/;"	function	line:12
+input	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^    <input type="submit" value="Submit" class="btn btn-primary submit" \/>$/;"	function	line:15
+hr	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^    <hr\/>$/;"	function	line:16
+a	/Users/lyman/Desktop/microscope/client/templates/posts/post_edit.html	/^    <a class="btn btn-danger delete" href="#">Delete post<\/a>$/;"	function	line:17
+template	/Users/lyman/Desktop/microscope/client/templates/posts/post_item.html	/^<template name="postItem">$/;"	function	line:1
+div	/Users/lyman/Desktop/microscope/client/templates/posts/post_item.html	/^  <div class="post">$/;"	function	line:2
+div	/Users/lyman/Desktop/microscope/client/templates/posts/post_item.html	/^    <div class="post-content">$/;"	function	line:3
+h	/Users/lyman/Desktop/microscope/client/templates/posts/post_item.html	/^      <h3><a href="{{url}}">{{title}}<\/a><span>{{domain}}<\/span><\/h3>$/;"	function	line:4
+p	/Users/lyman/Desktop/microscope/client/templates/posts/post_item.html	/^      <p>$/;"	function	line:5
+a	/Users/lyman/Desktop/microscope/client/templates/posts/post_item.html	/^    <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Discuss<\/a>$/;"	function	line:10
+ownPost	/Users/lyman/Desktop/microscope/client/templates/posts/post_item.js	/^  ownPost: function() {$/;"	function	line:3
+domain	/Users/lyman/Desktop/microscope/client/templates/posts/post_item.js	/^  domain: function() {$/;"	function	line:6
+ownsDocument	/Users/lyman/Desktop/microscope/lib/permissions.js	/^ownsDocument = function(userId, doc) {$/;"	function	line:2
+ownsDocument	/Users/lyman/Desktop/microscope/lib/permissions.js	/^\/\/ check that the userId specified owns the documents$/;"	function	line:0
+update	/Users/lyman/Desktop/microscope/lib/collections/posts.js	/^  update: function(userId, post) { return ownsDocument(userId, post); },$/;"	function	line:4
+remove	/Users/lyman/Desktop/microscope/lib/collections/posts.js	/^  remove: function(userId, post) { return ownsDocument(userId, post); }$/;"	function	line:5
+update	/Users/lyman/Desktop/microscope/lib/collections/posts.js	/^  update: function(userId, post, fieldNames) {$/;"	function	line:9
+postInsert	/Users/lyman/Desktop/microscope/lib/collections/posts.js	/^  postInsert: function(postAttributes){$/;"	function	line:15
+throwError	/Users/lyman/Desktop/microscope/client/helpers/errors.js	/^throwError = function(message) {$/;"	function	line:3
+throwError	/Users/lyman/Desktop/microscope/client/helpers/errors.js	/^Errors = new Mongo.Collection(null);$/;"	function	line:1
+template	/Users/lyman/Desktop/microscope/client/templates/application/layout.html	/^<template name="layout">$/;"	function	line:1
+div	/Users/lyman/Desktop/microscope/client/templates/application/layout.html	/^  <div class="container">$/;"	function	line:2
+div	/Users/lyman/Desktop/microscope/client/templates/application/layout.html	/^    <div id="main" class="row-fluid">$/;"	function	line:5
+template	/Users/lyman/Desktop/microscope/client/templates/includes/errors.html	/^<template name="errors">$/;"	function	line:1
