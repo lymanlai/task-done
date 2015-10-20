@@ -26,3 +26,5 @@ audit-argument-checks
 check
 dhtmlx:gantt-data
 dhtmlx:gantt
+autopublish
+insecure
