@@ -12,13 +12,13 @@
     <div class="collapse navbar-collapse" id="navigation">
       <ul class="nav navbar-nav">
         <li class="{{activeRouteClass 'home' 'newPosts'}}">
-          <a href="{{pathFor 'newPosts'}}">New</a>
+          <a href="{{pathFor 'newPosts'}}">最新</a>
         </li>
         <li class="{{activeRouteClass 'bestPosts'}}">
-          <a href="{{pathFor 'bestPosts'}}">Best</a>
+          <a href="{{pathFor 'bestPosts'}}">最紧急</a>
         </li>
         {{#if currentUser}}
-          <li class="{{activeRouteClass 'postSubmit'}}"><a href="{{pathFor 'postSubmit'}}">Submit Post</a></li>
+          <li class="{{activeRouteClass 'postSubmit'}}"><a href="{{pathFor 'postSubmit'}}">新建任务</a></li>
           <li class="dropdown">
             {{> notifications}}
           </li>

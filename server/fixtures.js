@@ -1,4 +1,4 @@
-if (Posts.find().count() === 0) {
+if (Posts.find().count() === 0 && false) {
   var now = new Date().getTime();
 
   // create two users
